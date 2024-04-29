@@ -1,5 +1,5 @@
-nickname,phase_count,size_in_kva,brand_name,item_number,model_number,cost_in_dollars,primary_in_volts,primary_winding,secondary_in_volts,secondary_winding,frequency_in_hertz,temperature_in_celsius,product_uri
-1-1,1,1,,,,361.69,240,,120,,,,
+nickname,phase_count,size_in_kva,primary_in_volts,primary_winding,secondary_in_volts,secondary_winding,frequency_in_hertz,temperature_in_celsius,brand_name,item_number,model_number,cost_in_dollars,product_uri
+1-1,1,1,240,,120,,,,,,,361.69,
 1-1.5,1,1.5,,,,,,,,,,,
 1-2,1,2,,,,,,,,,,,
 1-3,1,3,,,,,,,,,,,
@@ -32,7 +32,7 @@ nickname,phase_count,size_in_kva,brand_name,item_number,model_number,cost_in_dol
 3-1000,3,1000,,,,,,,,,,,
 3-1500,3,1500,,,,,,,,,,,
 3-2000,3,2000,,,,,,,,,,,
-3-2500,3,2500,,,,,12470,delta,480,wye,60,65,
+3-2500,3,2500,12470,delta,480,wye,60,65,,,,,
 3-3000,3,3000,,,,,,,,,,,
 3-3750,3,3750,,,,,,,,,,,
 3-5000,3,5000,,,,,,,,,,,

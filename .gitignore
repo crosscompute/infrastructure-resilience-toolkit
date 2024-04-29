@@ -2,6 +2,15 @@
 *.sw[op]
 *~
 # python
-.ipynb_checkpoints/
+*.egg*
+*.py[co]
+.cache
+.coverage
+.ipynb_checkpoints
+.pytest_cache
+.tox
+__pycache__
+build/
+dist/
 # libreoffice
 *.csv#

@@ -1,0 +1,21 @@
+service_drop_name = sd0
+transformer_name = dt0
+phase_count = 1
+line_to_line_in_volts = 208
+conductor_installation_type = overhead
+conductor_length_in_feet = 100
+conductor_spacing_in_inches = 12
+maximum_power_in_kilowatts = 3
+minimum_cosine_phi = 0.35
+maximum_cosine_phi = 0.8
+
+service_drop_name = sd1
+transformer_name = dt0
+phase_count = 1
+line_to_line_in_volts = 208
+conductor_installation_type = overhead
+conductor_length_in_feet = 200
+conductor_spacing_in_inches = 12
+maximum_power_in_kilowatts = 2
+minimum_cosine_phi = 0.35
+maximum_cosine_phi = 0.8
