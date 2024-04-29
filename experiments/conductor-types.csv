@@ -1,1 +1,11 @@
-nickname
+nickname,size_in_awg,size_in_kcmil,resistance_dc_at_20c_in_ohms_per_kft,resistance_ac_at_25c_in_ohms_per_kft,resistance_ac_at_50c_in_ohms_per_kft,resistance_ac_at_75c_in_ohms_per_kft,reactance_capacitive_in_megohm_per_kft,reactance_inductive_at_25c_in_ohm_per_kft,reactance_inductive_at_50c_in_ohm_per_kft,reactance_inductive_at_75c_in_ohm_per_kft,ampacity_in_amps
+turkey,6,,0.642,0.655,0.75,0.816,0.751,0.12,0.139,0.144,105
+swan,4,,0.403,0.412,0.479,0.522,0.715,0.115,0.131,0.137,140
+swanate,4,,0.399,0.407,0.463,0.516,0.71,0.113,0.124,0.13,140
+sparrow,2,,0.253,0.259,0.308,0.336,0.678,0.11,0.123,0.128,185
+sparate,2,,0.251,0.256,0.297,0.33,0.674,0.109,0.118,0.121,185
+robin,1,,0.201,0.206,0.247,0.27,0.66,0.107,0.119,0.122,210
+raven,1/0,,0.159,0.163,0.197,0.216,0.642,0.104,0.114,0.116,240
+quail,2/0,,0.126,0.13,0.162,0.176,0.624,0.102,0.112,0.113,275
+pigeon,3/0,,0.1,0.103,0.121,0.145,0.606,0.0992,0.108,0.109,315
+penguin,4/0,,0.0795,0.0822,0.107,0.116,0.597,0.0964,0.105,0.105,365
