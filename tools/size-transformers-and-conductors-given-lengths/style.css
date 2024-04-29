@@ -1,0 +1,17 @@
+.link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.service_drops_text {
+  height: 10em;
+}
+.transformer_types_csv {
+  height: 10em;
+}
+.conductor_types_csv {
+  height: 10em;
+}

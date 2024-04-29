@@ -1,0 +1,51 @@
+---
+crosscompute: 0.9.4
+name: Size Transformers and Conductors Given Lengths
+version: 0.0.1
+input:
+  variables:
+    - id: maximum_voltage_drop_percent
+      view: number
+      path: variables.dictionary
+    - id: temperature_in_celsius
+      view: number
+      path: variables.dictionary
+    - id: service_drops_text
+      view: text
+      path: service-drops.txt
+    - id: transformer_types_csv
+      view: text
+      path: transformer-types.csv
+      label: Transformer Types
+    - id: conductor_types_csv
+      view: text
+      path: conductor-types.csv
+      label: Conductor Types
+  templates:
+    - path: input.md
+output:
+  variables:
+    - id: waybill
+      view: table
+      path: waybill.csv
+    - id: transformers
+      view: table
+      path: transformers.csv
+    - id: transformers_link
+      view: link
+      path: transformers.csv
+    - id: conductors
+      view: table
+      path: conductors.csv
+    - id: conductors_link
+      view: link
+      path: conductors.csv      
+# templates:
+#   - path: output.md
+batches:
+  - folder: batches/standard
+scripts:
+  - path: run.ipynb
+display:
+  styles:
+    - path: style.css
