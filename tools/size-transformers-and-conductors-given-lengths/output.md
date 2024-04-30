@@ -1,6 +1,4 @@
 # Recommended Transformer and Conductor Sizes
-
-{ errors }
 { waybill }
 
 ## Transformers

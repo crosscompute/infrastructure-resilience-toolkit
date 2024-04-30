@@ -25,12 +25,9 @@ input:
     - path: input.md
 output:
   variables:
-    - id: errors
-      view: markdown
-      path: errors.md
     - id: waybill
-      view: table
-      path: waybill.json
+      view: markdown
+      path: waybill.md
     - id: waybill_link
       view: link
       path: waybill.csv
