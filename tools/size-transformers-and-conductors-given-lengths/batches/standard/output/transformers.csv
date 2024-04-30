@@ -1,2 +1,0 @@
-transformer_name,transformer_type_nickname,phase_count,minimum_size_in_kva,size_in_kva,service_drop_names
-dt0,1-15,1,14.285714285714285,15.0,"['sd0', 'sd1']"
