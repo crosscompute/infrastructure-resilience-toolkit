@@ -14,3 +14,15 @@ build/
 dist/
 # libreoffice
 *.csv#
+# crosscompute
+batches/
+datasets/
+debug/
+output/
+prints/
+runs/
+tests/
+.*.py
+.run.*
+.containerfile
+.containerignore

@@ -1,3 +1,9 @@
+.waybill td, th {
+  padding-right: 1em;
+}
+.waybill td:nth-child(2) {
+  text-align: right; 
+}
 .link {
   color: blue;
   text-decoration: underline;
@@ -7,11 +13,16 @@
   display: none;
 }
 .service_drops_text {
-  height: 10em;
+  height: 30em;
 }
 .transformer_types_csv {
-  height: 10em;
+  height: 30em;
 }
 .conductor_types_csv {
-  height: 10em;
+  height: 30em;
+}
+.error {
+  background-color: red;
+  color: white;
+  font-weight: bold;
 }
