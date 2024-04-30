@@ -31,24 +31,34 @@ output:
     - id: waybill_link
       view: link
       path: waybill.csv
+      configuration:
+        file-name: waybill.csv
     - id: transformers
       view: markdown
       path: transformers.md
     - id: transformers_link
       view: link
       path: transformers.csv
+      configuration:
+        file-name: transformers.csv
     - id: conductors
       view: markdown
       path: conductors.md
     - id: conductors_link
       view: link
       path: conductors.csv
+      configuration:
+        file-name: conductors.csv
   templates:
     - path: output.md
 batches:
   - folder: batches/standard
 scripts:
   - path: run.ipynb
+environment:
+  packages:
+    - id: pandas
+      manager: pip
 display:
   styles:
     - path: style.css
