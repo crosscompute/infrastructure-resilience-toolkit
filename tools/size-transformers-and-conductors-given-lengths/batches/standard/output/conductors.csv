@@ -1,3 +1,0 @@
-service_drop_name,transformer_name,phase_count,line_to_line_in_volts,conductor_installation_type,conductor_length_in_feet,conductor_spacing_in_inches,maximum_power_in_kilowatts,minimum_cosine_phi,maximum_cosine_phi,conductor_type_nickname,size_in_awg,size_in_kcmil,size_in_mm2,ampacity_in_amps,estimated_current_in_amps,estimated_voltage_drop_percent
-sd0,dt0,1,208,overhead,100,12,3,0.35,0.8,turkey,6,26.3,13.3,105,0.014423076923076924,0.0008265541027004002
-sd1,dt0,1,208,overhead,200,12,2,0.35,0.8,turkey,6,26.3,13.3,105,0.009615384615384616,0.0011020725139451097
