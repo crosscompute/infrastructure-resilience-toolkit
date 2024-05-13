@@ -1,6 +1,7 @@
 ---
 crosscompute: 0.9.4
 name: Size Transformers and Conductors Given Lengths
+description: Size transformers and conductors from service drop line lengths using customizable tables of transformer types and conductor types
 version: 0.0.1
 input:
   variables:
