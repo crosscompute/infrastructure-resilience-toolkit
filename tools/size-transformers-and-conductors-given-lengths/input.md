@@ -26,6 +26,4 @@ extraButton.addEventListener('click', function() {
 
 ## Acknowledgments
 
-Thanks to [Gustavo Cifuentes](https://www.linkedin.com/in/gcifuentes), [Marla J. Smith](https://www.linkedin.com/in/marla-smith-) and [Travis Weaver](https://www.linkedin.com/in/travisweaver) of [Withlacoochee River Electric Cooperative](https://wrec.net) for advice and feedback.
-
 This tool uses the 1990 IEEE Standard 241 Page 72 formula for voltage drop.
