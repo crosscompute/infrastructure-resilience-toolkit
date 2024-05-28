@@ -1,4 +1,0 @@
----
-crosscompute: 0.9.4
-imports:
-  - path: tools/size-transformers-and-conductors-given-lengths/automate.yml
