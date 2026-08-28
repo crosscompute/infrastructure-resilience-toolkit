@@ -52,8 +52,8 @@ output:
         file-name: conductors.csv
   templates:
     - path: output.md
-batches:
-  - folder: batches/standard
+presets:
+  - folder: presets/standard
 scripts:
   - path: run.ipynb
 environment:
